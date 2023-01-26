@@ -1,4 +1,3 @@
-import { ProgressBar } from "react-bootstrap";
 import styled from "styled-components";
 
 // Media queries
@@ -12,7 +11,7 @@ export const Header = styled.header`
   height: 80px;
   width: 100%;
   font-family: "lato";
-  background-color: #000000;
+  background-color: #171717;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -88,12 +87,12 @@ export const Button = styled.button`
 
 export const ProgressBarContainer = styled.div`
   width: 100%;
-  height: 6px;
+  height: 3px;
   background-color: #ffffff;
 `;
 
 export const PogressBar = styled.div`
   width: ${({ percentage }) => percentage}%;
-  height: 6px;
+  height: 3px;
   background-color: #752df9;
 `;

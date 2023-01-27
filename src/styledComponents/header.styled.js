@@ -22,7 +22,7 @@ export const Nav = styled.nav`
   display: flex;
   width: 90%;
   max-width: 1000px;
-  margin: auto;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;

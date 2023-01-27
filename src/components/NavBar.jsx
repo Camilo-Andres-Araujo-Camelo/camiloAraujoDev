@@ -24,7 +24,6 @@ const NavBar = () => {
       document.documentElement.scrollHeight -
       document.documentElement.clientHeight;
     let scrolled = (scroll / height) * 100;
-    console.log(String(scrolled));
     setPercentaje(scrolled);
   }
 

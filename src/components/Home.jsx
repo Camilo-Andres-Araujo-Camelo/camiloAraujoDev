@@ -1,10 +1,17 @@
 import React from "react";
-import { Init } from "../styledComponents/home.styled";
+import {
+  HomeContainer,
+  CenterContainer,
+} from "../styledComponents/home.styled";
 
 const Home = () => {
   return (
     <>
-      <Init></Init>
+      <HomeContainer>
+        <CenterContainer>
+          <h1>Hola, Soy Camilo Web Developer</h1>
+        </CenterContainer>
+      </HomeContainer>
     </>
   );
 };

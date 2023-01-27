@@ -15,7 +15,7 @@ import {
 } from "../styledComponents/header.styled";
 
 const NavBar = () => {
-  const [handleMenu, setHandleMenu] = useState(false);
+  const [handleMenu, setHandleMenu] = useState(true);
   const [percentage, setPercentaje] = useState(0);
 
   function scrollFunction() {

@@ -98,6 +98,6 @@ export const PogressBar = styled.div`
 
   ${mobile} {
     width: ${({ percentage }) =>
-      percentage === 0 ? percentage : percentage + 5}%;
+      percentage === 0 ? percentage : percentage + 10}%;
   }
 `;

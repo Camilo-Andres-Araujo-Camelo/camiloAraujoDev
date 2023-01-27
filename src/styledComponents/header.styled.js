@@ -95,4 +95,9 @@ export const PogressBar = styled.div`
   width: ${({ percentage }) => percentage}%;
   height: 3px;
   background-color: #752df9;
+
+  ${mobile} {
+    width: ${({ percentage }) =>
+      percentage === 0 ? percentage : percentage + 5}%;
+  }
 `;

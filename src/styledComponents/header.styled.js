@@ -38,14 +38,14 @@ export const MenuContainer = styled.div`
   color: #ffffff;
   display: flex;
   column-gap: 1.25rem;
-  left: 0;
+  left: ${({ handleMenu }) => (handleMenu ? "-100vw" : "0")};
 
   ${mobile} {
     background-color: slateblue;
     position: fixed;
     top: 80px;
     height: 100%;
-    width: ${({ handleMenu }) => (handleMenu ? "85vw" : "0")};
+    width: 85vw;
     flex-direction: column;
     align-items: center;
     padding-top: 40px;

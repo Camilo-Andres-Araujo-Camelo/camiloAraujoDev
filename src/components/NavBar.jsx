@@ -1,5 +1,4 @@
 import { React, useState } from "react";
-import logoBlack from "../assets/Logo_black.png";
 import logoWhite from "../assets/Logo_white.png";
 import {
   Header,

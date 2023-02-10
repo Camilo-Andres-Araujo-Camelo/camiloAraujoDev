@@ -54,9 +54,9 @@ export const MenuContainer = styled.div`
 
 export const Anchor = styled.a`
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Bebas Neue", cursive;
   font-weight: 400;
-  font-size: 1.25em;
+  font-size: 1.75rem;
   color: #ffffff;
   &:hover {
     color: #752df9;

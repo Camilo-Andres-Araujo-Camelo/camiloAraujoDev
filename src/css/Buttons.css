@@ -1,0 +1,99 @@
+:root {
+  --bg: #1e1f26;
+  --black: #262626;
+  --white: #fff;
+  --gray: #b1b1b1;
+  --time: 300ms;
+}
+
+.btnList {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+}
+.btnLi {
+  list-style: none;
+  margin: 0 20px;
+}
+.font {
+  font-size: 40px;
+  padding: 0 25px;
+}
+
+.btnA {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  width: 215px;
+  height: 60px;
+  background: var(--white);
+  transform: rotate(0deg) skew(18deg);
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+  transition: var(--time);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  font-size: 1.2rem;
+}
+.btnA:before,
+.btnA:after {
+  content: "";
+  position: absolute;
+  background: var(--gray);
+  transition: var(--time);
+}
+.btnA:before {
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  transform: rotate(0deg) skewY(-45deg);
+}
+.btnA:after {
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  transform: rotate(0deg) skewX(-45deg);
+}
+.btnA:hover {
+  transform: rotate(0deg) skew(8deg) translate(0px, 0px);
+  box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+  color: var(--white);
+}
+
+/* Facebook */
+.btnLi:hover:nth-child(1) .btnA {
+  background: #752df9;
+}
+.btnLi:hover:nth-child(1) .btnA:before {
+  background: #752df9;
+}
+.btnLi:hover:nth-child(1) .btnA:after {
+  background: #752df9;
+}
+
+/* Twitter */
+.btnLi:hover:nth-child(2) .btnA {
+  background: #0a66c2;
+}
+.btnLi:hover:nth-child(2) .btnA:before {
+  background: #0a66c2;
+}
+.btnLi:hover:nth-child(2) .btnA:after {
+  background: #0a66c2;
+}
+
+/* Instagram */
+.btnLi:hover:nth-child(3) .btnA {
+  background: #161b22;
+}
+.btnLi:hover:nth-child(3) .btnA:before {
+  background: #161b22;
+}
+.btnLi:hover:nth-child(3) .btnA:after {
+  background: #161b22;
+}
